@@ -26,8 +26,8 @@
     echo "Hello World";
     ?>
 ```
-<p>
-- nanti hasil nya akan seperti ini 
+
+- nanti hasil nya akan seperti ini ![Gambar 02](Image/hello%20world.PNG)
 
 
 # END
