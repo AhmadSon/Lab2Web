@@ -27,9 +27,8 @@
     ?>
 ```
 <p>
-- nanti hasil nya akan seperti ini
-![Gambar 02](Image/hello%20world.PNG)
+- nanti hasil nya akan seperti ini 
 
 
 # END
-![Gambar 00](Image/anime-love.gif)
+![Gambar 20](Image/anime-love.gif)
