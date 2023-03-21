@@ -29,6 +29,30 @@
 
 - nanti hasil nya akan seperti ini ![Gambar 02](Image/hello%20world.PNG)
 
+### Menggunakan Variable
+- pengenalan tentang variable. isi kodingan seperti di bawah
+```bash
+    <h2>Menggunakan Variable</h2>
+    <?php
+    $nim = "312110056";
+    $nama = 'Ahmad Syukron';
+    echo "NIM : ". $nim . "<br>";
+    echo "Nama : $nama";
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 03](Image/menggunakan%20variable.PNG)
+
+### Predifine Varible
+- pengenalan tentang Predifine Varible. isi kodingan seperti di bawah
+```bash
+    <h2>Predifine Variable</h2>
+    <?php
+    echo 'Selamat Datang '. $_GET['nama'];
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 03](Image/predifine%20variable.PNG)
+- Nah untuk bisa mendapatkan hasil seperti gambar di atas kalian bisa menambah akhiran ?nama=Ahmad contoh http://localhost/pw2-03/dasar_php.php?nama=Ahmad
+
 
 # END
 ![Gambar 20](Image/anime-love.gif)
