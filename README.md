@@ -69,6 +69,110 @@
 - Nanti hasil nya akan seperti ini ![Gambar 05](Image/form%20input(berhasil).PNG)
 - Untuk mendapatkan hasil seperti di atas, kita perlu mengisi di kolom nama terlebih dahulu, setelah di isi lalu klik kirim. Jika tidak di isi terlebih dahulu nanti hasil nya akan seperti ini ![Gambar 06](Image/form%20input(error).PNG)
 
+### Operator
+- pengenalan tentang Operator. isi kodingan seperti di bawah
+```bash
+    <h2>Operator</h2>
+    <?php
+    $gaji = 1000000;
+    $pajak = 0.1;
+    $thp = $gaji - ($gaji*$pajak);
+    echo "Gaji sebelum pajak = Rp. $gaji <br>";
+    echo "Gaji yang dibawa pulang = Rp. $thp";
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 07](Image/operator.PNG)
+
+### IF
+- pengenalan tentang IF. isi kodingan seperti di bawah
+```bash
+    <h2>Kondisi IF</h2>
+    <?php
+    $nama_hari = date("1");
+    if ($nama_hari == "Sunday"){
+        echo "Minggu";
+    }
+    elseif ($nama_hari == "Monday"){
+        echo "Senin";
+    }
+    else{
+        echo "Selasa";
+    }
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 08](Image/kondisi%20IF.PNG)
+
+### Switch
+- pengenalan tentang Switch. isi kodingan seperti di bawah
+```bash
+    <h2>Kondisi Switch</h2>
+    <?php
+    $nama_hari = date("1");
+    switch ($nama_hari){
+        case "Sunday":
+            echo "Minggu";
+            break;
+        case "Monday":
+            echo "Senin";
+            break;
+        case "Tuesday":
+            echo "Selasa";
+            break;
+        default:
+            echo "Sabtu";
+    }?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 09](Image/kondisi%20switch.PNG)
+
+### Perulangan For
+- pengenalan tentang Perulangan For. isi kodingan seperti di bawah
+```bash
+    <h2>Perulangan For</h2>
+    <?php
+    echo "Perulangan 1 sampai 10 <br/>";
+    for ($i=1; $i<=10; $i++){
+        echo "Perulangan ke: ".$i.'<br/>';
+    }
+    
+    echo "Perulangan Menurun dari 10 ke 1 <br/>";
+    for ($i=10; $i>=1; $i--){
+        echo "Perulangan ke: ".$i.'<br/>';
+    }
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 10](Image/perulangan%20for.PNG)
+
+### Perulangan While
+- pengenalan tentang Perulangan While. isi kodingan seperti di bawah
+```bash
+    <h2>Perulangan While</h2>
+    <?php
+    echo "Perulangan 1 sampai 10 <br/>";
+    $i=1;
+    while ($i<=10){
+        echo "Perulangan ke: ".$i.'<br/>';
+        $i++;
+    }
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 11](Image/perulangan%20while.PNG)
+
+### Perulangan dowhile
+- pengenalan tentang Perulangan dowhile. isi kodingan seperti di bawah
+```bash
+    <h2>Perulangan dowhile</h2>
+    <?php
+    echo "Perulangan 1 sampai 10 <br/>";
+    $i=1;
+    do{
+        echo "Perulangan ke: ".$i.'<br/>';
+        $i++;
+    }
+    while($i<=10);
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 12](Image/perulangan%20dowhile.PNG)
+
 
 # END
-![Gambar 20](Image/anime-love.gif)
+![Gambar 13](Image/anime-love.gif)
