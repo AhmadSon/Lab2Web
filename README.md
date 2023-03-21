@@ -13,9 +13,23 @@
     </table>
 </body>
 
-# Layout Sederhana
+# Tugas Pratikum 02
+## Hasil
+![Gambar 01](Image/hasil%20dari%20php%20sederhana.PNG)
+### Penjelasan
 
-## Tugas Latihan
+### Pengenalan PHP
+- Buat file dengan akhiran (.php)<p>
+```bash
+    <h2>Belajar PHP Dasar</h2>
+    <?php
+    echo "Hello World";
+    ?>
+```
+<p>
+- nanti hasil nya akan seperti ini
+![Gambar 02](Image/hello%20world.PNG)
+
 
 # END
-![Gambar 04](Image/anime-love.gif)
+![Gambar 00](Image/anime-love.gif)
