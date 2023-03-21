@@ -50,8 +50,24 @@
     echo 'Selamat Datang '. $_GET['nama'];
     ?>
 ```
-- Nanti hasil nya akan seperti ini ![Gambar 03](Image/predifine%20variable.PNG)
+- Nanti hasil nya akan seperti ini ![Gambar 04](Image/predifine%20variable.PNG)
 - Nah untuk bisa mendapatkan hasil seperti gambar di atas kalian bisa menambah akhiran ?nama=Ahmad contoh http://localhost/pw2-03/dasar_php.php?nama=Ahmad
+
+### Form Input
+- pengenalan tentang Form Input. isi kodingan seperti di bawah
+```bash
+    <h2>Form Input</h2>
+    <form method="post">
+        <label for="">Nama: </label>
+        <input type="text" name="nama">
+        <input type="submit" value="kirim">
+    </form>
+    <?php
+    echo 'Selamat Datang ' . $_POST['nama'];
+    ?>
+```
+- Nanti hasil nya akan seperti ini ![Gambar 05](Image/form%20input(berhasil).PNG)
+- Untuk mendapatkan hasil seperti di atas, kita perlu mengisi di kolom nama terlebih dahulu, setelah di isi lalu klik kirim. Jika tidak di isi terlebih dahulu nanti hasil nya akan seperti ini ![Gambar 06](Image/form%20input(error).PNG)
 
 
 # END
